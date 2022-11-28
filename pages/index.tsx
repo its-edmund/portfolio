@@ -12,7 +12,12 @@ export default function Home() {
         Portfolio.
       </h1>
       <span className="flex flex-row items-end mt-2">
-        <Image src={FujifilmLogo} height={14} className="mr-2" />
+        <Image
+          src={FujifilmLogo}
+          height={14}
+          className="mr-2"
+          alt="Fujifilm Logo"
+        />
         <h4 className="font-[Helvetica] text-black font-bold text-lg leading-[14px]">
           X-T30 Mark II
         </h4>
