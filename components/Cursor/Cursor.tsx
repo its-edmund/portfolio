@@ -24,7 +24,7 @@ const Cursor = () => {
 
   return (
     <div
-      className="w-8 h-8 bg-white rounded-full fixed mix-blend-difference"
+      className="w-8 h-8 bg-white rounded-full fixed mix-blend-difference z-50 pointer-events-none"
       style={{
         left: `${coord.x}px`,
         top: `${coord.y}px`,
