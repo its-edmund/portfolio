@@ -24,8 +24,8 @@ export default function Home() {
           </h4>
         </span>
       </div>
-      <div className="flex flex-row justify-center gap-6 p-12">
-        <div className="w-1/5 flex flex-col gap-6">
+      <div className="flex flex-col md:flex-row justify-center gap-2 md:gap-6 md:p-12 p-2">
+        <div className="w-full gap-2 md:w-1/5 flex flex-col md:gap-6">
           <img
             src="/images/0.jpg"
             className="rounded-xl hover:scale-105 transition-all"
@@ -37,7 +37,7 @@ export default function Home() {
             alt="Market St"
           />
         </div>
-        <div className="w-1/5 flex flex-col gap-6">
+        <div className="w-full gap-2 md:w-1/5 flex flex-col md:gap-6">
           <img
             src="/images/1.jpg"
             className="rounded-xl hover:scale-105 transition-all"
@@ -49,7 +49,7 @@ export default function Home() {
             alt="Market St"
           />
         </div>
-        <div className="w-1/5 flex flex-col gap-6">
+        <div className="w-full gap-2 md:w-1/5 flex flex-col md:gap-6">
           <img
             src="/images/2.jpg"
             className="rounded-xl hover:scale-105 transition-all"
